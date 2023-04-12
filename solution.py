@@ -9,4 +9,4 @@ def solution(x: np.array, y: np.array) -> bool:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     alfa = 0.02
-    return abs(x.mean() - y.mean()) <= alfa # Ваш ответ, True или False
+    return abs(x.mean() - y.mean()) <= alfa*y.mean() # Ваш ответ, True или False
